@@ -14,6 +14,11 @@
 		0A365D6E1C6FB7B600A27192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A365D6C1C6FB7B600A27192 /* LaunchScreen.storyboard */; };
 		0A365D791C6FB7B600A27192 /* TipCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A365D781C6FB7B600A27192 /* TipCalcTests.swift */; };
 		0A365D841C6FB7B600A27192 /* TipCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A365D831C6FB7B600A27192 /* TipCalcUITests.swift */; };
+		0A365D921C6FB87E00A27192 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A365D911C6FB87E00A27192 /* WelcomeViewController.swift */; };
+		0A365D961C6FBC6100A27192 /* restaurant-carousel-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A365D951C6FBC6100A27192 /* restaurant-carousel-1.jpg */; };
+		0A365D981C73058B00A27192 /* rest3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A365D971C73058B00A27192 /* rest3.jpg */; };
+		0A365D9A1C7314F900A27192 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A365D991C7314F900A27192 /* SecondViewController.swift */; };
+		0ADB00D11C7474CB009DA141 /* Basic-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB00D01C7474CB009DA141 /* Basic-2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		0A365D7F1C6FB7B600A27192 /* TipCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A365D831C6FB7B600A27192 /* TipCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalcUITests.swift; sourceTree = "<group>"; };
 		0A365D851C6FB7B600A27192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A365D911C6FB87E00A27192 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		0A365D951C6FBC6100A27192 /* restaurant-carousel-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "restaurant-carousel-1.jpg"; path = "../../../../Downloads/restaurant-carousel-1.jpg"; sourceTree = "<group>"; };
+		0A365D971C73058B00A27192 /* rest3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rest3.jpg; path = ../../../../Downloads/rest3.jpg; sourceTree = "<group>"; };
+		0A365D991C7314F900A27192 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0ADB00D01C7474CB009DA141 /* Basic-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Basic-2.jpg"; path = "../../../../Downloads/Basic-2.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +109,12 @@
 			children = (
 				0A365D631C6FB7B600A27192 /* AppDelegate.swift */,
 				0A365D651C6FB7B600A27192 /* ViewController.swift */,
+				0A365D951C6FBC6100A27192 /* restaurant-carousel-1.jpg */,
+				0A365D971C73058B00A27192 /* rest3.jpg */,
+				0ADB00D01C7474CB009DA141 /* Basic-2.jpg */,
+				0A365D911C6FB87E00A27192 /* WelcomeViewController.swift */,
 				0A365D671C6FB7B600A27192 /* Main.storyboard */,
+				0A365D991C7314F900A27192 /* SecondViewController.swift */,
 				0A365D6A1C6FB7B600A27192 /* Assets.xcassets */,
 				0A365D6C1C6FB7B600A27192 /* LaunchScreen.storyboard */,
 				0A365D6F1C6FB7B600A27192 /* Info.plist */,
@@ -193,6 +208,7 @@
 				TargetAttributes = {
 					0A365D5F1C6FB7B600A27192 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = A3LLN6N3LJ;
 					};
 					0A365D731C6FB7B600A27192 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -229,9 +245,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A365D961C6FBC6100A27192 /* restaurant-carousel-1.jpg in Resources */,
+				0A365D981C73058B00A27192 /* rest3.jpg in Resources */,
 				0A365D6E1C6FB7B600A27192 /* LaunchScreen.storyboard in Resources */,
 				0A365D6B1C6FB7B600A27192 /* Assets.xcassets in Resources */,
 				0A365D691C6FB7B600A27192 /* Main.storyboard in Resources */,
+				0ADB00D11C7474CB009DA141 /* Basic-2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A365D9A1C7314F900A27192 /* SecondViewController.swift in Sources */,
+				0A365D921C6FB87E00A27192 /* WelcomeViewController.swift in Sources */,
 				0A365D661C6FB7B600A27192 /* ViewController.swift in Sources */,
 				0A365D641C6FB7B600A27192 /* AppDelegate.swift in Sources */,
 			);
@@ -397,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TipCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mmittal.TipCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TipCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mmittal.TipCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +509,7 @@
 				0A365D8A1C6FB7B600A27192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A365D8B1C6FB7B600A27192 /* Build configuration list for PBXNativeTarget "TipCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +518,7 @@
 				0A365D8D1C6FB7B600A27192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A365D8E1C6FB7B600A27192 /* Build configuration list for PBXNativeTarget "TipCalcUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +527,7 @@
 				0A365D901C6FB7B600A27192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
